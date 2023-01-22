@@ -1,0 +1,22 @@
+<Myroot>:
+    
+    random_variable : random_variable
+    
+    
+    BoxLayout:
+    
+        orientation: 'vertical'
+
+        Label:
+            text : " nEUTRON"
+            font_size: 64
+            color: 0.95 ,0.45 , 0
+        Label:
+            id: random_variable
+            text: "-"
+            font_size: 64
+        Button:
+            text: "Generator"
+            font_size: 32
+            size: 100,50
+            on_press: root.generate_number()
