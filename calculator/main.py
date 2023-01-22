@@ -13,7 +13,7 @@ class MainApp(App):
 
         main_layout = BoxLayout(orientation = 'vertical')
 
-        self.solution = TextInput(background_color = "black", foreground_color = "white"
+        self.solution = TextInput(background_color = "black", foreground_color = "white",readonly = True
                         )
 
         main_layout.add_widget(self.solution)
